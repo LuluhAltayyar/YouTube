@@ -1,0 +1,39 @@
+
+
+.sidebare{
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    background-color: white;
+    z-index: 100;
+    padding-top: 5px;
+
+    
+}
+.sidebare-like{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.sidebare-like:hover{
+    background-color: rgb(235, 232, 232);
+}
+
+.sidebare-like img{
+
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebare-like div{
+
+    font-family:'Tajawal', sans-serif;
+    font-size: 10px;
+    
+}
